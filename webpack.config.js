@@ -6,7 +6,7 @@ module.exports = {
     },
     module: {
         rules: [
-            { test: /\.jpeg$/, use: [
+            { test: /\.jp(e?)g$/, use: [
                 'file-loader',
                 {
                   loader: 'image-webpack-loader',
